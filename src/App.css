@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background: #1a1a1a;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar .nav li.active {
+  background: green;
+}
+
+.main {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.kpi-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.kpi-card {
+  flex: 1;
+  background: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
 }
