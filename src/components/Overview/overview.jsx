@@ -13,7 +13,14 @@ import overviewData from "./overviewData.json";
 import "./overview.css";
 
 // Register required components
-ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  BarElement,
+  Title,
+  Tooltip,
+  Legend
+);
 
 const Overview = () => {
   const data = {
@@ -23,7 +30,8 @@ const Overview = () => {
         label: "Amount",
         data: overviewData.map((data) => data.value),
         backgroundColor: ["rgba(37, 201, 53, 1)"],
-        borderRadius: 20,
+        borderRadius: 100,
+        barThickness: 30,
       },
     ],
   };
@@ -43,7 +51,7 @@ const Overview = () => {
       y: {
         grid: { drawBorder: false, color: "#eaeaea" }, // Light y-axis grid
         ticks: { font: { family: "Poppins", size: 12 } }, // Font styling for y-axis labels
-        display: false
+        display: false,
       },
     },
   };

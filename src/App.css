@@ -1,16 +1,17 @@
 /* Reset and global styles */
 body {
   margin: 0;
+  padding: 0;
   font-family: Arial, sans-serif;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* height: 100vh; */
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 /* App layout */
 .app {
-  display: flex;
-  height: 100vh; /* Make the layout take up the full viewport height */
+  /* display: flex;
+  height: 100vh; Make the layout take up the full viewport height */
 }
 
 /* Sidebar styles */
@@ -26,7 +27,7 @@ body {
 
 /* Main container (Header and Content) */
 .main {
-  margin-left: 290px; /* Leaves space for the fixed sidebar */
+  margin-left: 290px; /*Leaves space for the fixed sidebar*/
   flex-grow: 1; /* Allows the main content to expand */
   display: flex;
   flex-direction: column;
@@ -47,7 +48,7 @@ header {
 
 /* Content below the header */
 .content {
-  flex-grow: 1;
+  /* flex-grow: 1; */
   padding: 20px;
   background: #f9f9f9;
 }

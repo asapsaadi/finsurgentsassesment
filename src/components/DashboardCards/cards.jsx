@@ -34,7 +34,7 @@ const DashboardCards = () => {
   };
 
   return (
-    <div style={{ display: "flex", width: "100%" }}>
+    <div style={{ width: "1100px" }}>
       {/* Card Section */}
       <div className="card-container">
         {cardData.map((card) => (
@@ -47,7 +47,9 @@ const DashboardCards = () => {
           >
             <CardContent>
               <img
-                src={selectedCard === card.id ? card.activeIcon : card.defaultIcon}
+                src={
+                  selectedCard === card.id ? card.activeIcon : card.defaultIcon
+                }
                 alt={card.title}
                 className="card-icon"
               />

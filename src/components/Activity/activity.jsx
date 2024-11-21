@@ -3,10 +3,10 @@ import "./activity.css";
 
 const Activity = () => {
   return (
-    <>
-    <div>
-      <h1 className="heading">Activity</h1>
-    </div>
+    <div className="activity-container">
+      <div>
+        <h1 className="heading">Activity</h1>
+      </div>
       {/* Circle Visualization */}
       <div className="circle-container">
         <div className="circle green">
@@ -43,9 +43,8 @@ const Activity = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
 export default Activity;
-
