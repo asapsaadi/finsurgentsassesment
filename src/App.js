@@ -16,7 +16,7 @@ const App = () => {
         <DashboardCards/>
         <Overview/>
         <TransactionHistory/>
-        
+        {/* <Activity/> */}
         <div className="content"> 
         </div>
       </div>
