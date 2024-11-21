@@ -44,14 +44,24 @@ const Sidebar = () => {
             </div>
             <div>
                 <ul className="nav">
-                    <li>Theme</li>
-                    <li>Security</li>
+                    <li>
+                    <img src="icons/theme.png" alt="Theme" className="nav-icon"/>
+                        Theme
+                    </li>
+                    <li>
+                    <img src="icons/security.png" alt="Security" className="nav-icon" />
+                        Security
+                    </li>
                 </ul>
             </div>
             <div className="user">
-                <img src="profile.jpg" alt="Profile" className="user-icon" />
-                <p>Imran Khan</p>
-                <p>ik@finsurgents.com</p>
+                <div className="user-info">
+                    <img src="icons/profile.png" alt="Profile" className="user-icon" />
+                    <div className="user-details">
+                        <p className="user-name">Imran Khan</p>
+                        <p className="user-email">ik@finsurgents.com</p>
+                    </div>
+                </div>
             </div>
         </div>
     );
