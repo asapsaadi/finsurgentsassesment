@@ -5,6 +5,7 @@ import './App.css';
 import DashboardCards from './components/DashboardCards/cards';
 import Overview from './components/Overview/overview';
 import TransactionHistory from './components/Transaction/transaction';
+//import Activity from './components/Activity/activity';
 
 const App = () => {
   return (
@@ -15,8 +16,8 @@ const App = () => {
         <DashboardCards/>
         <Overview/>
         <TransactionHistory/>
-        <div className="content">
-          
+        
+        <div className="content"> 
         </div>
       </div>
     </div>
