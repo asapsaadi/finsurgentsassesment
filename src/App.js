@@ -44,6 +44,7 @@ const App = () => {
                 marginTop: "20px",
                 marginRight: "37px",
                 boxShadow: "0px 1px 5px rgba(0, 0, 0, 0.1)",
+                borderRadius: "10px"
               }}
             >
               <Activity />
