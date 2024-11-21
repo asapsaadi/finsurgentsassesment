@@ -4,6 +4,7 @@ import Header from './components/DashboardHeader/header';
 import './App.css';
 import DashboardCards from './components/DashboardCards/cards';
 import Overview from './components/Overview/overview';
+import TransactionHistory from './components/Transaction/transaction';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Header />
         <DashboardCards/>
         <Overview/>
+        <TransactionHistory/>
         <div className="content">
           
         </div>
